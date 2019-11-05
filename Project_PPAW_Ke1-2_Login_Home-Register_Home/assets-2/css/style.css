@@ -1,0 +1,181 @@
+html,body {
+
+	background: url('../img/background.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.header .navbar {
+	background: #384ca3;
+	color: #fff;
+	font-size: 13px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.header .navbar .container {
+	padding: 0 15px;
+}
+
+.header .navbar a{
+	color: #fff;
+}
+
+.header .navbar .dropdown-menu{
+	min-width: 0;
+}
+.header .navbar a.dropdown-item{
+	color: #000;
+}
+
+.logo {
+	padding: 15px 0;
+	background: #f5f5f5;
+}
+
+.body {
+	color: #fff;
+	background: #ffffff0d;
+	padding: 15px 0;
+}
+
+.body h3{
+	font-weight: normal;
+	text-transform: uppercase;
+    border-bottom: 2px solid #ffb619;
+	margin-bottom: 1rem;
+	padding-bottom: 5px;
+}
+
+.body form .row {
+	margin-bottom: 25px;
+}
+.body .form-control {
+    border: 0;
+    box-shadow: none !important;
+    background: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    padding-left: 0;
+    color: #fff;
+}
+.body .form-control:focus {
+
+    background: none;
+    border-bottom: 1px solid #ffb619;
+}
+.body .form-control + label {
+    position: absolute;
+    margin-top: -30px;
+    transition: all 250ms ease;
+    font-style: italic;
+}
+.body .form-control:focus + label {
+    color: #ffb619;
+}
+.body .form-control:focus + label,
+.body .form-control + label.stay {
+    margin-top: -55px;
+    font-style: normal;
+}
+
+.body .form-control + label + .toggle-password {
+	float: right;
+	position: relative;
+	margin-top: -20px;
+	color: #ffb619;
+}
+
+.body .custom-checkbox .custom-control-label::before {
+	border-radius: unset;
+	border: 1px solid #ffb619;
+	background: none;
+}
+
+.body .custom-control-input:checked~.custom-control-label::before {
+	background: #ffb619;
+}
+
+.body .btn-submit {
+	background: #ffb619;
+	color: #fff;
+}
+
+h3,h4 {
+	font-weight: normal;
+}
+.footer {
+	color: #fff;
+	background: #;
+	padding: 15px 0;
+}
+
+.footer .flow-process ul {
+	display: flex;
+	list-style: none;
+    padding-left: 0;
+}
+
+.footer .flow-process ul li {
+	flex: 1;
+    position: relative;
+}
+
+.footer .flow-process ul li:before {
+	content: '';
+    height: 1px;
+    width: calc(100% - 58px);
+    position: absolute;
+    right: -61px;
+    top: 30px;
+    background: #ffffff;
+}
+
+.footer .flow-process ul li.last:before {
+	display: none;
+}
+.footer .flow-process .step {
+	text-align: center;
+}
+.footer .flow-process .step .circle {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+}
+.footer .user-guide ul {
+	list-style: none;
+}
+.active-color {
+	color: #ffb619;
+}
+
+@media (max-width: 768px){
+	.footer .flow-process ul li:before {
+	    right: -26px;
+	}
+}
+
+@media (max-width: 425px){
+	.footer .flow-process ul li:before {
+	    right: -37px;
+	}
+
+	.body form .row {
+		margin-bottom: 0
+	}
+	.row [class^="col-"] {
+		margin-bottom: 25px;
+	}
+}
+@media (max-width: 320px){
+	.footer .flow-process ul li:before {
+	    right: -19px;
+	}
+	.user-guide ul {
+		padding-left: 0;
+	}
+}

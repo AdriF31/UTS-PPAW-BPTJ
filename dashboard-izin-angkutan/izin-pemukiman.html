@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | Izin Angkutan Pemukiman</title>
+
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css'>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+        }
+    </script>
+    
+</head>
+<body>
+    <nav class="mnb navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                
+                
+                <div style="padding: 5px 0; margin: 10px">
+                    <a href="#" id="msbo"><i class="ic fa fa-bars"></i> </a><img src="img/3---Dashboard---header.png" alt="" style="margin-left: 30px">
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right" style="padding: 15px 0 15px 0;">
+                    <li><a href="#"><i class="fas fa-phone-alt"></i> Hubungi</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> Bantuan</a></li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt"></i> <span class="text">LOGOUT</span></a></li>
+                </ul>
+                
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="msb" id="msb">
+        <nav class="navbar navbar-default" role="navigation">
+
+        <div class="navbar-header">
+            <div class="brand-wrapper">
+            
+             <div class="navbar-header dashboard">
+                
+                
+                <div style="padding: 5px 0; margin: 10px">
+                   <h4>DASHBOARD MENU <a href="#" id="mbo"><i class="ic fa fa-bars"></i> </a></h4>
+                    
+                </div>
+                
+                
+            </div>
+            </div>
+        </div>
+
+        <div class="side-menu-container">
+                <ul class="nav navbar-nav">
+                    <button class="dropdown-btn"><h4 style="margin: 0;"> <img src="img/3---Dashboard---User_dash1perizinanonline.png" alt="">Perizinan Online<i class="fa fa-caret-down"></i></h4>
+                    </button>
+                      <div class="dropdown-container">
+                            <li><a href="../dashboard-izin-angkutan/izin-perkotaan.html"><h4 style="margin: 0;">Perkotaan</h4></a></li>
+                            <li><a href="../dashboard-izin-angkutan/izin-pemukiman.html"><h4 style="margin: 0;">Pemukiman</h4></a></li>
+                      </div>
+                    <li><a href="../UTS-ppaw-B-kelompok-2/monitoring-berkas-pemukiman.html"><h4 style="margin: 0;"><h4 style="margin: 0;"><img src="img/3---Dashboard---User_dash2monitoring%20berkas.png" alt=""> Monitoring Berkas</h4></a></li>
+                    <li><a href="#"><h4 style="margin: 0;"><img src="img/3---Dashboard---User_dash3crapenggunaan.png" alt=""> Cara Penggunaan</h4></a></li>
+                    <li><a href="#"><h4 style="margin: 0;"><img src="img/3---Dashboard---User_dash4callcenter.png" alt=""> Call Center</h4></a></li>
+                    <li><a href="#"><h4 style="margin: 0;"><img src="img/3---Dashboard---User_dash5regulasi.png" alt=""> Regulasi/Ketentuan</h4></a></li>
+                </ul>
+            </div>
+    </nav>
+   </div>
+
+    <div class="mcw">
+
+        <div class="row" style="margin:0;">
+            <div class="col-md-12" style="padding: 0;">
+                <div class="atas">
+                    <h3>Permohonan Izin Baru - Angkutan Pemukiman</h3>
+                    <i class="home fa fa-home" aria-hidden="true"></i> <a href="#">Home</a> <span class="divider">/</span> <a href="#" class="active">Pemohon Persetujuan Izin</a>
+                    <div class="col-md-3 col-xs-12" style="float: right">
+                      <div class="search-dashboard">
+                        <div class="input-group">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="#"></i></button>
+                          </span>
+                          <input type="text" class="form-control" placeholder="Search people, documents, dates...">
+                        </div>
+                      </div>
+                    </div>  
+                </div>
+                          
+            </div>
+            <!--nav-->
+    <div class="wrapper">
+    <!--end nav-->
+    <!--search-->   
+    <!--end search-->
+    <!--form -->
+    <div class="container-fluid info input-dashboard">
+        <div class="info-dashboard">
+            <div class="row">
+
+                <form action="dashboard-perkotaan.html" class="form-section">
+                    <div class="first section">
+                        <div class="section-head">
+                            <h4>Form Permohonan Izin Baru Angkutan Pemukiman <a href="#"><i class="fas fa-info-circle"></i></a></h4>
+                        </div>
+                        <div class="isi-form">
+                            <div class="form">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 ">
+                                        <div class="form">
+                                            <label for>Nama Pemukiman</label>
+                                                <span class="red">(*)</span>
+                                        </div>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form">
+                                            <label for>Asal Perjalanan</label>
+                                                <span class="red">(*)</span>
+                                        </div>
+                                            <input type="text" class="form-control">
+                                        
+                                    </div> 
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form">
+                                            <label for>Tujuan Pemberhentian</label>
+                                                <span class="red">(*)</span>
+                                        </div>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form">
+                                            <label for>Jumlah Kendaraan</label>
+                                                <span class="red">(*)</span>
+                                        </div>
+                                        <input type="number" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second section">
+                        <div class="section-head">
+                            <h4>Form Permohonan Izin Baru Angkutan Pemukiman <a href="#"><i class="fas fa-info-circle"></i></a></h4>
+                        </div>
+                        <div class="isi-form">
+                            <div class="form">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="form">
+                                            <label for>Nomor Surat Permohonan</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                        <input type="text" class="form-control">
+                                    </div> 
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="form">
+                                            <label for>Tanggal Surat Permohonan</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                        <input type="date" class="form-control">
+                                    </div> 
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="form">
+                                            <label for>Dokumen Pemohon</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-12 col-xs-12">
+                                        <span class="label-upload">Upload File :</span>
+                                    </div> 
+                                    <div class="upload-btn-wrapper col-md-4 col-sm-11 col-xs-11">
+                                        <button class="btn-upload" style="background: #ffb619;">
+                                            Upload PDF
+                                        </button>
+                                        <div class="progress" style="height: 10px; background-color: 
+                                        #c5c5c5; border-radius: 0px;">
+                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;  border-radius: none; height: 10px; ">
+                                                <span class="sr-only">60% Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 col-xs-1 col-sm-1">
+                                        <i class="fas fa-check-circle" style="color:#c5c5c5"></i>
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="form">
+                                            <label for>Dokumen NPWP</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-12 col-xs-12">
+                                        <span class="label-upload">Upload File :</span>
+                                    </div> 
+                                    <div class="upload-btn-wrapper col-md-4 col-sm-11 col-xs-11">
+                                        <button class="btn-upload">
+                                            Upload PDF
+                                        </button>
+                                        <span class="upload-bar">
+                                        </span>
+                                    </div>
+                                    <div class="col-md-1 col-xs-1 col-sm-1">
+                                        
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="form">
+                                            <label for>Dokumen NPWP Pimpinan</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-12 col-xs-12">
+                                        <span class="label-upload">Upload File :</span>
+                                    </div> 
+                                    <div class="upload-btn-wrapper col-md-4 col-sm-11 col-xs-11">
+                                        <button class="btn-upload">
+                                            Upload PDF
+                                        </button>
+                                        <span class="upload-bar">
+                                        </span>
+                                    </div>
+                                    <div class="col-md-1 col-xs-1 col-sm-1">
+                                        
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="form">
+                                            <label for>Dokumen Akte Pendirian dan Perubahan</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-12 col-xs-12">
+                                        <span class="label-upload">Upload File :</span>
+                                    </div> 
+                                    <div class="upload-btn-wrapper col-md-4 col-sm-11 col-xs-11">
+                                        <button class="btn-upload">
+                                            Upload PDF
+                                        </button>
+                                        <span class="upload-bar">
+                                        </span>
+                                    </div>
+                                    <div class="col-md-1 col-xs-1 col-sm-1">
+                                        
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <div class="form">
+                                          <label for>Dokumen Pengesahan Kumham PendirianPerusahaan</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-12 col-xs-12">
+                                        <span class="label-upload">Upload File :</span>
+                                    </div> 
+                                    <div class="upload-btn-wrapper col-md-4 col-sm-11 col-xs-11">
+                                        <button class="btn-upload">
+                                          Upload PDF
+                                        </button>
+                                        <span class="upload-bar">
+                                        </span>
+                                    </div>
+                                    <div class="col-md-1 col-xs-1 col-sm-1">
+                                        
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                      <div class="form">
+                                          <label for>Nomor Surat TDP</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                      <input type="text" class="form-control">
+                                    </div> 
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                      <div class="form">
+                                        <label for>Tanggal Surat TDP</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                      <input type="date" class="form-control">
+                                    </div> 
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                      <div class="form">
+                                          <label for>Dokumen TDP</label>
+                                      </div>
+                                    </div>
+                                      <div class="col-md-2 col-sm-12 col-xs-12">
+                                        <span class="label-upload">Upload File :</span>
+                                    </div> 
+                                    <div class="upload-btn-wrapper col-md-4 col-sm-11 col-xs-11">
+                                      <button class="btn-upload">
+                                          Upload PDF
+                                      </button>
+                                      <span class="upload-bar">
+                                      </span>
+                                    </div> 
+                                    <div class="col-md-1 col-xs-1 col-sm-1">
+                                        
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                      <div class="form">
+                                          <label for>Nomor Surat SIUP</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                      <input type="text" class="form-control">
+                                    </div> 
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                      <div class="form">
+                                        <label for>Tanggal Surat SIUP</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                      <input type="date" class="form-control">
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                      <div class="form">
+                                          <label for>Dokumen SIUP</label>
+                                      </div>
+                                    </div>
+                                      <div class="col-md-2 col-sm-12 col-xs-12">
+                                        <span class="label-upload">Upload File :</span>
+                                    </div> 
+                                    <div class="upload-btn-wrapper col-md-4 col-sm-11 col-xs-11">
+                                      <button class="btn-upload">
+                                          Upload PDF
+                                      </button>
+                                      <span class="upload-bar">
+                                      </span>
+                                    </div>
+                                    <div class="col-md-1 col-xs-1 col-sm-1">
+                                        
+                                    </div>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                      <div class="form">
+                                          <label for>Dokumen Domisili</label>
+                                      </div>
+                                    </div>
+                                      <div class="col-md-2 col-sm-12 col-xs-12">
+                                        <span class="label-upload">Upload File :</span>
+                                    </div> 
+                                    <div class="upload-btn-wrapper col-md-4 col-sm-11 col-xs-11">
+                                      <button class="btn-upload">
+                                          Upload PDF
+                                      </button>
+                                      <span class="upload-bar">
+                                      </span>
+                                    </div>  
+                                    <div class="col-md-1 col-xs-1 col-sm-1">
+                                        
+                                    </div>                                                                      
+                                </div>                  
+                            </div>
+                        </div>
+                        
+                                </div>
+                                <div class="submit-form">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <button type="button" name="button" class="btn-cancel">BATAL</button>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <button type="button" name="button" class="btn-submit">
+                                                <span class="text">Ajukan Permohonan</span>
+                                                <i class="fas fa-arrow-right"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+    <!--end form -->
+           
+<div class="col-md-12" style="padding: 0;">
+    <div class="footer">
+        <p>Hak Cipta &copy; 2018 . <strong>Badan Pengelola Transportasi JABODETABEK</strong>  | All Rights Reserved.</p>
+    </div>
+</div>   
+
+</div>
+   
+
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+<script>
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      } else {
+      dropdownContent.style.display = "block";
+      }
+      });
+    }
+    </script>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+    <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script id="rendered-js">
+      (function () {
+          $('#msbo').on('click', function () {
+            $('body').toggleClass('msb-x');
+                });
+            })();
+        
+       
+      //# sourceURL=pen.js
+    </script>
+    <script id="rendered-js">
+      (function () {
+          $('#mbo').on('click', function () {
+            $('body').toggleClass('msb-x');
+                });
+            })();
+        
+       
+      //# sourceURL=pen.js
+    </script>
+</body>
+</html>

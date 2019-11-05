@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css'>
+    <!-- My CSS-->
+    <link rel="stylesheet" href="assets/style.css">
+    
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+        }
+    </script>
+    
+    <title>Dashboard | Perizinan</title>
+</head>
+<body>
+    <nav class="mnb navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div style="padding: 5px 0; margin: 10px">
+                    <a href="#" id="msbo"><i class="ic fa fa-bars"></i> </a><img src="assets/img/3---Dashboard---header.png" alt="" style="margin-left: 30px">
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right" style="padding: 15px 0 15px 0;">
+                    <li><a href="#"><i class="fas fa-phone-alt"></i> Hubungi</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> Bantuan</a></li>
+                    <li><a href="../index.html"><i class="fas fa-sign-out-alt"></i> <span class="text">LOGOUT</span></a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="msb" id="msb">
+        <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <div class="brand-wrapper">
+             <div class="navbar-header dashboard">
+                <div style="padding: 5px 0; margin: 10px">
+                   <h4>DASHBOARD MENU <a href="#" id="mbo"></a></h4>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="side-menu-container">
+            <ul class="nav navbar-nav">
+                <button class="dropdown-btn"><h4 style="margin: 0;"> <img src="assets/img/3---Dashboard---User_dash1perizinanonline.png" alt="">Perizinan Online<i class="fa fa-caret-down"></i></h4>
+                </button>
+                  <div class="dropdown-container">
+                    <li><a href="../dashboard-izin-angkutan/izin-perkotaan.html"><h4 style="margin: 0;">Perkotaan</h4></a></li>
+                    <li><a href="../dashboard-izin-angkutan/izin-pemukiman.html"><h4 style="margin: 0;">Pemukiman</h4></a></li>
+                  </div>
+                <li><a href="../UTS-ppaw-B-kelompok-2/monitoring-berkas-pemukiman.html"><h4 style="margin: 0;"><img src="assets/img/3---Dashboard---User_dash2monitoring%20berkas.png" alt=""> Monitoring Berkas</h4></a></li>
+                <li><a href="#"><h4 style="margin: 0;"><img src="assets/img/3---Dashboard---User_dash3crapenggunaan.png" alt=""> Cara Penggunaan</h4></a></li>
+                <li><a href="#"><h4 style="margin: 0;"><img src="assets/img/3---Dashboard---User_dash4callcenter.png" alt=""> Call Center</h4></a></li>
+                <li><a href="#"><h4 style="margin: 0;"><img src="assets/img/3---Dashboard---User_dash5regulasi.png" alt=""> Regulasi/Ketentuan</h4></a></li>
+            </ul>
+        </div>
+    </nav>
+   </div>
+
+    <div class="mcw">
+
+        <div class="row" style="margin:0;">
+            <div class="col-md-12" style="padding: 0;">
+                <div class="atas">
+                    <h3>DASHBOARD</h3>
+                    <div class="breadcrumb-info">
+                      <i class="fa fa-home" aria-hidden="true"></i> <a href="#">Home</a> <span class="divider">/</span> <a href="#" class="active">Dashboard</a>
+                    </div>
+                    <div class="col-md-3 col-xs-12" style="float: right">
+                      <div class="search-dashboard">
+                        <div class="input-group">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="#"></i></button>
+                          </span>
+                          <input type="text" class="form-control" placeholder="Search people, documents, dates...">
+                        </div>
+                      </div>
+                    </div>  
+                </div>     
+            </div> 
+         </div>
+         
+        <section id="Daftar" class="daftar">
+            <div class="jumbotron mb-0">
+               <div class="kotak">
+                <div class="row ">
+                     <!-- Baris1 -->
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin1.png" alt="...">
+                          <div class="caption">
+                            <h3>Permohonan Izin Angkutan Dalam Trayek</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" data-toggle="modal" data-target="#myModal">DAFTAR</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin2.png" alt="...">
+                          <div class="caption">
+                            <h3>Realisasi SK : Izin Kartu Pengawasan</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" ><a href="../Dashboard_izinsuratpengawasan/izin-kartu-pengawasan.html" style="color: black">DAFTAR</a></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin3.png" alt="...">
+                          <div class="caption">
+                            <h3>Penambahan Kartu Pengawasan</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" ><a href="../Dashboard_izinsuratpengawasan/kartu-pengawasan.html" style="color: black">DAFTAR</a></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <!-- Baris2 -->
+                <div class="row">
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin4.png" alt="...">
+                          <div class="caption">
+                            <h3>Penambahan Kendaraan</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" data-toggle="modal" data-target="#myModal">DAFTAR</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin5.png" alt="...">
+                          <div class="caption">
+                            <h3>Peremajaan Kendaraan</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" data-toggle="modal" data-target="#myModal">DAFTAR</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin6.png" alt="...">
+                          <div class="caption">
+                            <h3>Penambahan Trayek</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" data-toggle="modal" data-target="#myModal">DAFTAR</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <!-- Baris3 -->
+                <div class="row">
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin7.png" alt="...">
+                          <div class="caption">
+                            <h3>Pembaharuan Masa Berlaku</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" data-toggle="modal" data-target="#myModal">DAFTAR</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin8.png" alt="...">
+                          <div class="caption">
+                            <h3>Perubahan Data Pengurus</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" data-toggle="modal" data-target="#myModal">DAFTAR</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                          <img src="assets/img/3---Dashboard---User_izin9.png" alt="...">
+                          <div class="caption">
+                            <h3>Penggantian Dokument</h3>
+                             <button type="button" class="btn btn-link btn-lg" role="button" data-toggle="modal" data-target="#myModal">DAFTAR</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+        </section>
+           
+            
+<div class="col-md-12" style="padding: 0;">
+    <div class="footer">
+        <p>Hak Cipta &copy; 2018 . <strong>Badan Pengelola Transportasi JABODETABEK</strong>  | All Rights Reserved.</p>
+    </div>
+</div>   
+
+</div>
+  
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Masa Berlaku : Trayek Pemukiman dan Perkotaan</h4>
+      </div>
+      <div class="modal-body">
+        <li>TAHUN SK 1 </li>
+        <li>TAHUN PENGAWASAN 5 </li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" id="close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+   
+
+
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+    <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script id="rendered-js">
+      (function () {
+          $('#msbo').on('click', function () {
+            $('body').toggleClass('msb-x');
+                });
+            })();
+        
+       
+      //# sourceURL=pen.js
+    </script>
+    <script id="rendered-js">
+      (function () {
+          $('#mbo').on('click', function () {
+            $('body').toggleClass('msb-x');
+                });
+            })();
+        
+       
+      //# sourceURL=pen.js
+        
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      } else {
+      dropdownContent.style.display = "block";
+      }
+      });
+    }
+    </script>
+</body>
+</html>
